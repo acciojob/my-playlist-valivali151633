@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+#container{
+	background-color: rgb(204, 204, 204);
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	padding:20px;
+	
+}
+#container h1,h2{
+ text-align:center;
+}
+#playlist{
+	background:#ffffff;
+	border:2px solid black;
+	border-radius:8px;
+}
+#playlist li{
+	list-style-type:none;
+}
+#playlist a{
+	text-decoration-line:none;
+	color:black;
+}
+.player_one {
+	padding:10px;
+	margin-inline:20px;
+	background:#ffffff;
+	border:2px solid black;
+	border-radius:8px;
+}
+
+
+	
