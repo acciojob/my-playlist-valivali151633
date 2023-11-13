@@ -1,4 +1,7 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(204, 204, 204);
+}
 #container{
 	background-color: rgb(204, 204, 204);
 	display:flex;
@@ -22,13 +25,19 @@
 	text-decoration-line:none;
 	color:black;
 }
-.player_one {
+.media {
 	padding:10px;
 	margin-inline:20px;
-	background:#ffffff;
+	background:rgb(255, 255, 255);
 	border:2px solid black;
 	border-radius:8px;
 }
-
+.player_one , .player_two
+{
+	background:rgb(255, 255, 255);
+	
+	border-radius:8px;
+	padding:10px;
+}
 
 	
